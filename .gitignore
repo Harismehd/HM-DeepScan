@@ -1,0 +1,27 @@
+# Ignore all private source code, build artifacts, and local forensic data
+*.py
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+src/
+build/
+dist/
+*.spec
+requirements.txt
+
+# Ignore local keys, licenses, and logs
+key
+*.lic
+*.json
+.hm_license.json
+*.log
+*.pdf
+*.html
+
+# Ignore recovered and personal test data
+recovered_data/
+photo_details/
+HM_DeepScan_Beta_Release/
+HM_DeepScan_Beta_Release.zip
+.android/
